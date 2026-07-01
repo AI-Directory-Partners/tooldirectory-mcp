@@ -1,5 +1,8 @@
 # Tool Directory MCP Server
 
+[![npm version](https://img.shields.io/npm/v/tooldirectory-mcp)](https://www.npmjs.com/package/tooldirectory-mcp)
+[![license](https://img.shields.io/badge/license-MIT-green)](LICENSE)
+
 MCP server for the [AI Tool Directory](https://tooldirectory.ai) — a live, human-edited catalog of 2,000+ AI tools. Lets any MCP client (Claude Desktop, Claude Code, Cursor, Windsurf, agent frameworks) query the catalog mid-task instead of guessing from a frozen training cut.
 
 The headline tool is **`check_tool_status`**: whether an AI tool is still alive. It's the one fact LLMs reliably get wrong — models keep recommending products that shut down months ago. This server answers it from the directory's [AI Graveyard](https://tooldirectory.ai/graveyard), a maintained dataset of 150+ defunct and acquired AI tools, and suggests live alternatives when a tool is dead.
