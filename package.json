@@ -1,0 +1,35 @@
+{
+  "name": "tooldirectory-mcp",
+  "version": "1.0.0",
+  "description": "MCP server for the AI Tool Directory — search 2,000+ AI tools, compare them, find alternatives, and check whether a tool is still active, defunct, or acquired.",
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "mcp-server",
+    "ai-tools",
+    "ai-tool-directory",
+    "ai-graveyard",
+    "claude",
+    "agents"
+  ],
+  "homepage": "https://tooldirectory.ai/mcp",
+  "bugs": {
+    "url": "https://github.com/AI-Directory-Partners/tooldirectory-mcp/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AI-Directory-Partners/tooldirectory-mcp.git"
+  },
+  "license": "MIT",
+  "author": "Tool Directory (https://tooldirectory.ai)",
+  "type": "module",
+  "bin": {
+    "tooldirectory-mcp": "src/index.js"
+  },
+  "files": [
+    "src/"
+  ],
+  "engines": {
+    "node": ">=18"
+  }
+}
